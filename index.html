@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sender App Test</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form-container">
+      <form class="geturl" action="/" method="post" enctype="application/x-www-form-urlencoded">
+        <div class="align-form-elements">
+          <input id="web-address" type="url" name="url" value="">
+          <button class="clear-input-btn" type="reset" name="button">X</button>
+        </div>
+        <div class="align-form-elements">
+          <button class="keys key-A" type="button" onclick="displayURL()" name="A">a</button>
+          <button class="keys key-B" onclick="displayURL()" type="button" name="B">b</button>
+        </div>
+        <div class="align-form-elements">
+          <button class="keys key-C" type="button" onclick="displayURL()" name="C">c</button>
+          <button id="submit" class="submit" type="button" onclick="redirect()" name="button">visit ></button>
+        </div>
+      </form>
+      <hr>
+      <ul class="social">
+        <li><a href="https://twitter.com"><img src="img/twitter.png" alt="twitter"></a></li>
+        <li><a href="https://facebook.com"><img src="img/facebook.png" alt="facebook"></a></li>
+        <li><a href="https://linkedin.com"><img src="img/linkedin.png" alt="linked"></a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
