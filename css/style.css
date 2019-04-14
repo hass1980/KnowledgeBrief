@@ -54,13 +54,13 @@ body {
   color: #454955;
 }
 
-#submit {
+.submit {
   background: #004E64;
   color: #fff;
   border: none;
 }
 
-#submit:hover {
+.submit:hover {
   background: #a3c4bc;
   color: #454955;
 }

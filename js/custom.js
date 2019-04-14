@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   /* Get url from input field and redirect to that url.*/
 
-  $("#submit").click(function redirect(event) {
+  $(".submit").click(function redirect(event) {
     event.preventDefault();
     let url = document.getElementById('web-address').value;
 
